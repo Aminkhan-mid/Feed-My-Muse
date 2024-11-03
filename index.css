@@ -1,0 +1,185 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: seashell;
+    color: orangered;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;          
+}
+
+header{
+    background-color: orangered;
+    margin: 10px;
+    border-radius: 20px;
+}
+h1{
+    color: seashell;
+    text-shadow: 0px 0px 2px black;
+}
+.flexHead{
+    display: flex;
+    position: relative;
+}
+.header-quotes{
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    font-size: 22px;
+    color: #121122;
+    background-color: aliceblue;
+    padding: 6px 12px;
+    border-radius: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    margin:20px auto;   
+    border-radius: 10px;
+    flex: 1;
+}
+
+.muse-btn{
+    width: 160px;
+    padding: 10px 20px;
+    border: none;
+    background-color: orangered;
+    font-size: 16px;
+    color: aliceblue;
+    border-radius: 10px;
+    margin:10px auto;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.muse-btn:hover{
+    transition: all 0.5 ease-in-out;
+    box-shadow: 5px 5px 0px #121122;
+    background-color: orange;
+    color: black;
+    font-size: 16px;
+}
+.radio-container{
+    border:  2px solid black;
+    border-radius: 10px;
+    width: 300px;
+    padding:4px;
+    transition: 1s;
+}
+.radio-container:hover{
+    box-shadow: 10px 10px 0px #121212;
+}
+.radios{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    line-height: 40px;
+    font-size: 20px;
+    color: navy;
+}
+.radios:hover{
+    background-color: #1212;
+}
+
+label, input[type="radio"]{
+    cursor: pointer;
+}
+.radios:last-child{
+    border-bottom: 10px;
+}
+.highlight:last-child{
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.highlight:first-child{
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.highlight{
+    accent-color: navy;
+    background-color: orangered;
+    color: seashell;
+    padding:5px;
+}
+
+.book-modal-container{
+    display: none;
+    position: relative;
+   background-color: rebeccapurple;
+    width: 300px;
+    height: 490px;
+    border-radius: 4px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.bookImg{
+    width: 400px;
+    height: 590px;
+    border-radius: 20px;
+    box-shadow: -10px 10px 5px #1212;
+    cursor: pointer;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+.bookImg:hover{
+    box-shadow: -20px 20px 15px #1212;
+    transform: scale(1.10);
+}
+
+.checkbox-container{
+    box-shadow: 25px 25px 0px #1212;
+    border: 1px solid black;
+    width: 430px;
+    border-radius: 10px;
+    line-height: 40px;
+    margin: 200px 0px 10px 0px;
+    accent-color: #232323;
+    transition: 0.5s;
+}
+.checkbox-container:hover{
+    box-shadow: 50px 50px 0px #1212;
+}
+.checkbox-container label{
+    color: #121212;
+    font-weight: bold;
+    font-size: 29px;
+    accent-color: black;
+}
+.label-one:hover,
+.label-two:hover{
+    border-bottom:2px solid #1212;
+}
+footer{
+    margin-top: auto;
+}
+
+.footBootom{
+    background-color: #121212;
+    padding: 5px;
+    margin-top:20px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    font-size: 20px;
+    color: #B2AC88;
+    font-weight: bold;
+}
+.footBootom a{
+    color: plum;
+    text-decoration: none;
+}
+.footBootom a:hover{
+    color: orange;
+    text-shadow: 0px 0px 2px orangered;
+
+    text-decoration: underline;
+    border-radius: 10px;
+}

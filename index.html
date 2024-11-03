@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qasier E Kitaab</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.cdnfonts.com/css/roboto" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+                
+</head>
+<body>
+    <header class="flexHead">
+        <img src="booksIcon.png" alt="icon">
+        <h1>Qaiser-e-Kitaab</h1>
+
+            <div class="header-quotes" id="header-quotes"></div>
+
+    </header>
+
+    <main>
+        <section class="container">
+            
+            <div class="radio-container" id="radio-container"></div>
+
+            <div class="checkMuseDiv">
+                <div class="checkbox-container">
+                    <label class="label-one" for="fiction-checkbox">🧙‍♂️Want only Fiction?🪸</label>
+                    <input type="radio" id="fiction-checkbox" name="select-book-type">
+                            <br>
+                    <label class="label-two" for="nonfiction-checkbox">🧠Want only Non-Fiction?💭</label>    
+                    <input type="radio" id="nonfiction-checkbox" name="select-book-type">
+                </div>
+                
+                <button class="muse-btn" id="muse-btn">Feed My Muse</button>
+            </div>
+        </section>
+    </main>
+
+    <div class="book-modal-container" id="book-modal-container">
+
+        <div id="book-modal-inner-container"></div>
+    </div>
+
+
+    <footer>
+        <div class="footBootom">
+            <p>&copy;2024, Designed by 
+                <a href="https://github.com/Aminkhan-mid" target="_blank">AMIN KHAN</a></p>
+        </div>
+    </footer>
+    <script src="index.js" type="module"></script>
+</body>
+</html>

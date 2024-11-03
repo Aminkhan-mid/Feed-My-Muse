@@ -1,0 +1,9 @@
+{
+    "name": "Qaiser E Kitaab",
+    "description": "get books reccomendations",
+    "authors": "Amin Khan",
+    "version": "1.0.0",
+    "main": "index.js",
+    "dependencies": {},
+    "type": "module"
+}

@@ -7,7 +7,7 @@ const museBtn = document.getElementById('muse-btn')
 const nonFictionCheckbox = document.getElementById('nonfiction-checkbox')
 const fictionCheckbox = document.getElementById('fiction-checkbox')
 const bookModalContainer = document.getElementById('book-modal-container')
-const bookModalInnerContainer = document.getElementById('book-modal-inner-container')
+
 const headerQuotes = document.getElementById("header-quotes")
 
 setInterval(randomQuotes, 3600000)
@@ -76,7 +76,7 @@ function renderBook(){
         alt="${deployFinalBook.alt}">
         `
     bookModalContainer.style.display = 'flex'
-    bookModalInnerContainer.innerHTML = theBook
+    bookModalContainer.innerHTML = theBook
 }
 
 function pushBooksDataInArray(books){
